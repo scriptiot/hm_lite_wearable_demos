@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { backPage, routePage } from "../../../common/js/general";
+import { backPage, routePage } from "../../common/js/general";
 export default {
   changePage1: routePage("pages/component/input/button/attr/attr").changePage,
   changePage2: routePage("pages/component/input/button/style/style").changePage,

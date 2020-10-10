@@ -108,8 +108,17 @@ def generateProjects(path):
             indexFile = os.sep.join([projectIndexDir, "index.js"])
             with open(indexFile, "r") as f:
                 content = str(f.read())
-            if "../../../../common/js/general" in content:
+            isReWrite = False
+            if "../../../../../common/js/general" in content:
+                content = content.replace("../../../../../common/js/general", "../../common/js/general")
+                isReWrite = True
+            elif "../../../../common/js/general" in content:
                 content = content.replace("../../../../common/js/general", "../../common/js/general")
+                isReWrite = True
+            elif "../../../common/js/general" in content:
+                content = content.replace("../../../common/js/general", "../../common/js/general")
+                isReWrite = True
+            if isReWrite:
                 with open(indexFile, "w") as f:
                     f.write(content)
 
