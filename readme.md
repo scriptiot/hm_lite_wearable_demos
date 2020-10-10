@@ -26,12 +26,19 @@
 
 + 自动弹出模拟器查看界面效果
 
-    ![showcase_index](images/showcase_index.png)
+    ![showcase_index](images/showcase-index.png)
 
 
 三、测试展示
 ========================================
 
+| 例子      |   UI |
+| :-------- | --------:|
+| **airquality**| ![airquality](images/airquality.png) |
+| **music**| ![music](images/music.png) |
+| **alarm**| ![airquality](images/alarm.png) |
+| **showcase_index**| ![airquality](images/showcase-index.png) |
+| **showcase_canvas_canvas6**| ![airquality](images/showcase-canvas-canvas6.png) |
 
 
 四、加入EVM官方QQ技术交流群
