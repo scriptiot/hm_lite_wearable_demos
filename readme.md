@@ -54,4 +54,4 @@
 + 微信：  
     ![evm](images/djf.png)
 
-欢迎大家通过 `GitHub issues`、`邮件` `微信` 或 `QQ群`反馈问题和联系我们。
+欢迎大家通过 `GitHub issues`、`邮件`、 `微信` 或 `QQ群`反馈问题和联系我们。
