@@ -10,7 +10,7 @@
 ========================================
 
 
-+ 打开 `DevEcoStduio`
++ 打开 `DevEcoStudio`
 
 + 点击 `File/Open`
 
